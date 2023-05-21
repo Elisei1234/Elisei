@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> FlightPool</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="jquery.bxslider.js"></script>
+	<link href="jquery.bxslider.css" rel="stylesheet"/>
+</head>
+<body>
+<div class = "conteiner">
+<!--Шапка сайта-->
+<div class ="box">	
+	<header class = "header">
+		<a href="index.html">
+		<img src="media/logo.png" alt="logo" class="test-logo">
+		</a> 	
+		<div class = "ul">	
+			<ul>
+	 			<li>
+  				<a href="#promotions" class=”test-nav-1”>Акции</a>
+ 				</li> 
+ 				<li>
+  				<a href="#search-form" class=”test-nav-2”>Поиск</a>
+ 				</li>	
+ 				<li>
+  				<a href="register.html" class=”test-nav-4”>Личный кабинет</a>
+ 				</li>
+      </ul>
+		</div>		
+	</header>
+</div>
+<!--Шапка сайта-->
+<!--Описания принципа накопления бронирований-->
+<main>
+  <div class ="box">
+    <section class="promo">
+      <h1 style = "font-size:26px"> Основные принципы работы сервиса:</h1>
+      <p class="promo-text"> 1.	Выбрать удобную дату перелета.<br>2. Накопить больше 50% бронирований на рейс.<br>3.	Получить снижение стоимости.<br>
+      </p>
+      <p class = "prom-text">«Мы сближаем города, вы – живете там, где хотите».</p>
+    </section>	
+  </div>
+<!--Описания принципа накопления бронирований-->
+<!--Слайдер-->
+<div class = "box">
+  <div class = "slider-cont">
+	  <div class = "slider">
+		  <ul class="bxslider">
+  			<li><img src="media/images/ekipaj.jpg"> </li>
+  			<li><img src="media/images/960.jpg"> </li>
+  			<li><img src="media/images/aircrafts/plana.jpg"> </li>
+  			<li><img src="media/images/1-2.jpg"> </li>
+  			<li><img src="media/images/aircrafts/airbus.jpg"> </li>
+		  </ul>
+	  </div>
+  </div>
+</div>
+<!--Слайдер-->
+<!--Форма поиска-->
+<div class="search-form">
+    <h2 id = "search-form">Форма поиска рейсов</h2>
+    <form id="flightSearchForm" action = "search.html">
+      <div class="form-group">
+        <label for="from"><span>Откуда:</span></label>
+        <input type="text" id="from" class="test-0-fd" required>
+      </div>
+      <div class="form-group">
+        <label for="to"><span>Куда:</span></label>
+        <input type="text" id="to" class="test-0-fa" required>
+      </div>
+      <div class="form-group">
+        <label for="departureDate"><span>Дата отбытия:</span></label>
+        <input type="date" id="departureDate" class="test-0-fdt" required>
+      </div>
+      <div class="form-group">
+        <label for="returnDate"><span>Дата прибытия:</span></label>
+        <input type="date" id="returnDate" class="test-0-fat" required>
+      </div>
+      <div class="form-group">
+        <label for="passengerCount"><span>Количество пассажиров:</span></label>
+        <input type="number" id="passengerCount" class="test-0-fnp" min="1" max="8" required>
+      </div>
+      <div class="form-buttons">
+        <button type="submit" class="test-0-fbs" >Искать</button>
+      </div>
+    </form>
+  </div>
+<!--Форма поиска-->
+<!--Акции-->
+<p class = "test-0-ac" id = "promotions">Акции</p>
+<div class="promotions">
+    <img class = "test-0-ai"src="media/promotion1.jpg">
+    <h3 class = "test-0-an">Возврат и изменение ваших билетов</h3>
+    <p class = "test-0-ad">Пандемия изменила планы многих путешественников, но мы знаем, что она не будет длиться вечно.Как только все это закончится, мы продолжим исследовать этот мир так, как раньше.Специальные правила, разработанные для этой непростой ситуации, помогут вам отменить поездку или отложить на потом.</p>
+    <button class = "test-0-abm">Подробнее</button>
+  </div>
+  
+  <div class="promotions">
+    <img  class = "test-0-ai"src="media/promotion2.jpg">
+    <h3 class = "test-0-an">Лучшие предложения</h3>
+    <p class = "test-0-ad">Чтобы снова увидеть улицы, которые были свидетелями так много. Чтобы обнять своих любимых и оглянуться, чтобы увидеть через что вы прошли. И думать о новых мечтах, которые будут такими особенными!</p>
+    <button class = "test-0-abm">Подробнее</button>
+  </div>
+
+  <div class="promotions">
+    <img class = "test-0-ai" src="media/promotion3.jpg">
+    <h3 class = "test-0-an">Видеться чаще</h3>
+    <p class = "test-0-ad">С начала января мы расширяем географию полетов по России, чтобы вы могли чаще видеться с любимыми. Выбирайте нашу компанию, чтобы лететь туда, где вас всегда ждут.</p>
+    <button class = "test-0-abm">Подробнее</button>
+  </div>
+
+  <div class="promotions">
+    <img class = "test-0-ai" src="media/promotion4.jpg">
+    <h3 class = "test-0-an">Всё снова включено</h3>
+    <p class = "test-0-ad">С 10 августа мы возобновим полеты в Турцию. Рейсы из Москвы в Анталию будут выполняться дважды в день ежедневно, а рейсы по маршруту Москва — Даламан будут выполняться от трех до семи раз в неделю</p>
+    <button class = "test-0-abm">Подробнее</button>
+  </div>
+
+<!--Акции-->
+<!--Отзывы-->
+<h1 class="rew-title">Отзывы о нашей компании</h1>
+  <div class="cards">
+    <div class="card">
+      <img src="media/Patrick.png"  class="card-image">
+      <div class="card-text">
+        <div class="card-heading">
+          <h3 class="card-heading">Патрик Бейтман</h3>
+        </div>
+        <div class="card-info">
+          <div class="rating"><img src="media/zvezda.png" width="40">4.9</div>
+          <div class="rewiew">Это лучший сайт, который я только видел, я расскажу о нём всем кому только смогу.</div>
+        </div>
+      </div>
+    </div>
+            
+  <div class="card">
+    <img src="media/Vergil.png"  class="card-image">
+    <div class="card-text">
+      <div class="card-heading">
+        <h3 class="card-heading">Вергилий</h3>
+      </div>
+        <div class="card-info">
+          <div class="rating"><img src="media/zvezda.png" width="40">4.5</div>
+          <div class="rewiew">Круто полетал, но в самолёте сзади меня сидел какой-то недоросль и пинал моё сиденье</div>
+        </div>
+      </div>
+    </div>
+           
+  <div class="card">
+    <img src="media/Dante.png"  class="card-image">
+    <div class="card-text">
+      <div class="card-heading">
+        <h3 class="card-heading">Данте</h3>
+      </div>
+        <div class="card-info">
+          <div class="rating"><img src="media/zvezda.png" width="40">5.0</div>
+          <div class="rewiew">Самая лучшая авиакомпания и сиденья в самолётах очень удобно пинать. Сайт тоже не отстаёт, это буквально рай для глаз</div>
+        </div>
+      </div>
+    </div>
+
+  <div class="card">
+    <img src="media/White.png"  class="card-image">
+    <div class="card-text">
+      <div class="card-heading">
+        <h3 class="card-heading">Уолтер</h3>
+      </div>
+        <div class="card-info">
+          <div class="rating"><img src="media/zvezda.png" width="40">4.7</div>
+          <div class="rewiew">Неплохо</div>
+        </div>
+      </div>
+    </div>
+
+  <div class="card">
+    <img src="media/Rat.png"  class="card-image">
+    <div class="card-text">
+      <div class="card-heading">
+        <h3 class="card-heading">Антуан Эго</h3>
+      </div>
+        <div class="card-info">
+          <div class="rating"><img src="media/zvezda.png" width="40">3.0</div>
+          <div class="rewiew">Авиакомпания подкачала, но сайт неплох.</div>
+        </div>
+      </div>
+    </div>
+
+  <div class="card">
+    <img src="media/inkognito.png"  class="card-image">
+    <div class="card-text">
+      <div class="card-heading">
+        <h3 class="card-heading">Инкогнито</h3>
+      </div>
+        <div class="card-info">
+          <div class="rating"><img src="media/zvezda.png" width="40">0.1</div>
+          <div class="rewiew">Самая худшая авиакомпания, услугами которой я пользовался, жалкая попытка.</div>
+        </div>
+      </div>
+    </div>
+</div>
+<!--Отзывы-->
+<!--Закрытые акции-->
+<div class="test-0-0">
+	<div class="card-text">
+		<div class="test-0-and">
+			<h3 class="card-heading">Подписка на закрытые акции</h3>
+		</div>
+		<div class="card-info">
+			<div class="test-0-sib">Подпишитесь и будете получать особые предложения от нашей компании</div>
+		</div>
+		<input type="email" id="emailInput" class="test-0-sie " placeholder="Email*">
+		<div class="checkbox-container">
+		</div>
+		<button class="test-0-sbs" type="submit">Подписаться</button>
+	</div>
+</div>
+<!--Закрытые акции-->
+</main>
+<!--Подвал-->
+<footer>
+	<footer class="footer">
+		<div class="container-foot">
+			<div class="footer-block">
+				<a href="index.html">
+			<img src="media/logo.png" alt="logo" class="test-logo2">
+				</a>
+				<nav class="footer-nav">
+					<a href="#" class="footer-link">FAQ</a>
+					<a href="#" class="footer-link">Контакты</a>
+					<a href="#" class="footer-link">О нас</a>
+					<a href="#" class="footer-link">Новости</a>
+					<a href="#" class="footer-link">Обратная связь</a>
+					<a href="#" class="test-phone">8 (800) 100-10-10</a>
+				</nav>
+			</div>
+		</div>
+	</footer>
+</footer>
+</div>
+<script>jQuery(document).ready(function(){
+			jQuery('.bxslider').bxSlider();
+			});
+		</script>
+<!--Подвал-->
+</body>
+</html>

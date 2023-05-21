@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> FlightPool</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class = "conteiner">
+<!--Шапка сайта-->	
+	<header class = "header">
+		<a href="index.html">
+		<img src="media/logo.png" alt="logo" class="test-logo">
+		</a> 	
+		<div class = "ul">	
+			<ul>
+ 				<li>
+  				<a href="index.html" class=”test-nav-4”>На главную</a>
+ 				</li>
+			</div>		
+	</header>
+<!--Шапка сайта-->	
+<!--Главная часть-->
+<div class = "main-registr">
+	<div class = frame>
+		<h2 class = "h2-registr">Регистрация</h2>
+  	<form  id ="registrationForm">
+    	<div class = "form-group">
+      	<label for="name">Имя:</label>
+      	<input type="text" id="name" class="test-2-name" required>
+    	</div>
+    	<div class = "form-group">
+      	<label for="lastName">Фамилия:</label>
+      	<input type="text" id="lastName" class="test-2-last" required>
+    	</div>
+    	<div class = "form-group">
+      	<label for="docNumber">Номер документа:</label>
+      	<input type="text" id="docNumber" class="test-2-doc" required>
+    	</div>
+    	<div class = "form-group">
+      	<label for="phone">Телефон:</label>
+      	<input type="tel" id="phone" class="test-2-phone" required>
+    	</div>
+    	<div class = "form-group">
+      	<label for="password">Пароль:</label>
+      	<input type="password" id="password" class="test-2-pass" required>
+    	</div>
+    	<div class = "form-group">
+      	<label for="repeatPassword">Повторите пароль:</label>
+      	<input type="password" id="repeatPassword" class="test-2-pass2" required>
+    	</div>
+    	<div class="form-buttons">
+      	<button type="submit" class="test-2-btn">Зарегистрироваться</button>
+    	</div>
+  	</form>
+	</div>
+</div>
+
+<script type="text/javascript" src = "register.js"></script>
+<!--Главная часть-->
+<!--Подвал-->
+	<footer class="footer">
+		<div class="container-foot">
+			<div class="footer-block">
+				<a href="index.html">
+			<img src="media/logo.png" alt="logo" class="test-logo2">
+				</a>
+				<nav class="footer-nav">
+					<a href="#" class="footer-link">FAQ</a>
+					<a href="#" class="footer-link">Контакты</a>
+					<a href="#" class="footer-link">О нас</a>
+					<a href="#" class="footer-link">Новости</a>
+					<a href="#" class="footer-link">Обратная связь</a>
+					<a href="#" class="test-phone">8 (800) 100-10-10</a>
+				</nav>
+			</div>
+		</div>
+	</footer>
+</div>
+<!--Подвал-->
+</body>
+</html>

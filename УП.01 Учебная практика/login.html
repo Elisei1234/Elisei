@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+	<title>login</title>
+</head>
+<body>
+<div class = "conteiner">
+<!--Шапка сайта-->	
+	<header class = "header">
+		<a href="index.html">
+		<img src="media/logo.png" alt="logo" class="test-logo">
+		</a> 	
+		<div class = "ul">	
+			<ul>
+ 				<li>
+  				<a href="index.html" class=”test-nav-4”>На главную</a>
+ 				</li>
+			</div>		
+	</header>
+<!--Шапка сайта-->	
+<!--Главная часть-->
+<div class = "main-login">
+	<div class = frame-login>
+		<h2 class = "h2-login">Вход</h2>
+  	<form  id ="login-form">
+    	<div class = "form-group">
+      	<label for="tel">Телефон:</label>
+      	<input type="tel" id="tel" class="test-1-fpn" required>
+    	</div>
+    	<div class = "form-group">
+      	<label for="password">Пароль:</label>
+      	<input type="password" id="password" class="test-1-fps" required>
+    	</div>
+    	<div class="form-buttons">
+      	<button type="submit" class="test-1-fbs">Войти</button>
+    	</div>
+  	</form>
+	</div>
+</div>
+<!--Главная часть-->
+<!--Подвал-->
+<footer>
+	<footer class="footer">
+		<div class="container-foot">
+			<div class="footer-block">
+				<a href="index.html">
+			<img src="media/logo.png" alt="logo" class="test-logo2">
+				</a>
+				<nav class="footer-nav">
+					<a href="#" class="footer-link">FAQ</a>
+					<a href="#" class="footer-link">Контакты</a>
+					<a href="#" class="footer-link">О нас</a>
+					<a href="#" class="footer-link">Новости</a>
+					<a href="#" class="footer-link">Обратная связь</a>
+					<a href="#" class="test-phone">8 (800) 100-10-10</a>
+				</nav>
+			</div>
+		</div>
+	</footer>
+</footer>
+<script type="text/javascript">
+    const form = document.querySelector("#login-form");
+    const inputs = form.elements;
+    const registeredUsers = [
+      ["89991234567", "password12*"]];
+    function isValid(username, password) {
+          for(var i = 0; i < registeredUsers.length; i++) {
+              var temp = registeredUsers[i];
+              if (temp[0] == username) {
+                var currentPair = temp;
+            break;
+              }
+          }
+          if (currentPair && currentPair[1] == password) {
+        return true;
+          } 
+          else {
+        return false;
+          }
+    }
+    form.addEventListener('submit', function(e){
+     e.preventDefault();
+      var username = inputs["tel"].value;
+      var password = inputs["password"].value;
+        if (!isValid(username, password)){
+          alert('Неверный телефон или пароль');
+        } else {
+          window.location.href = 'profile.html';
+        }
+});
+</script>
+<!--Подвал-->
+</body>
+</html>

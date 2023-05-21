@@ -1,0 +1,490 @@
+*{
+	font-family: monospace;
+}
+body{
+	width: 100%;
+}
+.conteiner{
+	max-width: 100%;
+	margin:auto;
+}
+.test-logo{
+	margin-top: 32px;
+	width: 150px;
+	height: auto;
+	margin-left: 15px;
+}
+a{
+	text-decoration: none;
+	color: white;	
+}
+.header{
+	display: flex;
+	background-color: #0c73fe;
+	height:50px;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom:45px;
+	margin-bottom: 25px;
+}
+ul{
+	display: flex;
+	text-decoration: none;
+	font-size: 27px;
+	list-style: none;
+ 	margin: 0;  
+  margin-right: 250px;
+  margin-top: 37px;
+  float: left;
+}
+li{
+	margin:50px;
+}
+.ul a:hover{
+	color:#A9A9A9;
+}
+.test-nav-2{
+	margin-right: 100px;
+}
+.promo{
+	padding: 39px 39px;
+	background-color:#0c73fe;
+	background-image: url(media/promo.png);
+	background-size: 400px 250px;
+	background-repeat: no-repeat;
+	margin-bottom:20px;
+	background-position: top right;
+	background-size: 1100px 500px;
+	margin-bottom:20px;
+}	
+.promo-text{
+	font-size: 30px;
+	max-width: 590px;
+	color: white;
+	line-height: 38px;
+}
+.prom-text{
+	font-size: 26px;
+	color:white;
+}
+h1{
+	font-size: 30px;
+	color:white;
+}
+.slider img{
+	width: 100%;
+	height:700px;
+	margin-left:-50px;
+	margin-top: -50px;
+}
+.slider-cont{
+	margin:0 auto;
+	margin-top:50px;
+	width: 80%;
+}
+span{
+  color:white;
+}
+h2{
+  color:white;
+}
+.card {
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 3%;
+  text-decoration: none;
+  justify-content: center;
+  margin-inline: 3%;
+  width: 25%;
+  height: 400px;
+}
+.rew-title{
+  text-align: center;
+  margin-left: -60%;
+  color: #3d3e40;
+}
+.cards{
+  display: flex;
+  flex-wrap:wrap;
+  align-items: flex-start;
+  justify-content:center;
+  width: auto;
+  border-radius: 100px;
+}
+.card-image {
+  width:100%;
+  height: 200px;
+
+}
+.card-text {
+  padding-top: 20px;
+  padding-bottom: 35px;
+  padding-left: 23px;
+  padding-right: 23px;
+  color: #3d3e40;
+}
+.card-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #3d3e40;
+}
+.card-title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3d3e40;
+}
+.card-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #eaab00;
+}
+.rating {
+  margin-right: 24px;
+  color:#eaab00;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 100%;
+}
+.rewiew{
+  color: grey;
+  font-size: 18px;
+  line-height: 90%;
+  margin-right: 10px;
+}
+.footer-block {
+  display: flex;
+  align-items: center;
+}
+.footer-link {
+  font-size: 22px;
+  color: white;
+  padding: 0 10px;
+}
+.test-logo2 {
+  width: 150px;
+  height: auto;
+}
+.test-phone {
+  font-size: 22px;
+  padding-left: 30px;
+  color: white;
+}
+.footer {
+  background-color: #0c73fe;
+  height: 80px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-registr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.h2-registr{
+	text-align: center;
+  color:black;
+}
+.h2-login{
+  text-align: center;
+  color:black;
+}
+.frame {
+  width: 560px;
+  padding: 20px;
+  height: 790px;
+  border: 2px solid #000;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-group input {
+  width: 100%;
+  padding: 5px;
+}
+.error {
+  color: red;
+  margin-top: 5px;
+}
+.form-buttons button {
+	display: flex;
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+}
+.test-2-btn{
+	margin: 0 auto;
+  display: block;
+}
+.profile-main{
+  text-align: center;
+  border:4px solid #0c73fe;
+  margin-bottom:30px;
+  margin-top:30px;
+  font-size: 30px;
+}
+.search-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #0c73fe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-group input {
+  width: 100%;
+  padding: 5px;
+}
+.form-buttons {
+  text-align: center;
+}
+.form-buttons button {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.test-0-0{
+  display:flex;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 3%;
+  text-decoration: none;
+  margin-inline: 3%;
+  width: 25%;
+  height: 400px;
+  margin-left: 712px;
+}
+.test-0-and {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #3d3e40;
+  font-size: 30px;
+}
+.test-0-sib{
+  margin-top: -20px;
+  color: #eaab00;
+  font-size: 18px;
+  line-height: 90%;
+  margin-right: 10px;
+  font-family: monospace;
+  color: black;
+}
+.test-0-sbs{
+	margin-top: 5px;
+}
+.promotions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.promotions img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.test-0-an{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.promotions p {
+  margin-bottom: 10px;
+} 
+.promotions button {
+  padding: 10px 20px;
+  background-color: #0c73fe;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.test-0-ad{
+	margin-top:20px ;
+	margin-bottom:15px;
+	font-size: 22px;
+	text-align: justify;
+}
+.test-0-ac{
+	margin-top:20px ;
+	margin-bottom:15px;
+	font-size: 22px;
+	text-align: center;
+}
+.frame-login {
+  width: 400px;
+  padding: 20px;
+  height: 590px;
+  border: 2px solid #000;
+}
+.main-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.test-1-fbs{
+  margin: 0 auto;
+}
+.profile-cont{
+  background-color: #0c73fe;
+  color: white;
+  margin: 0 auto;
+  padding: 20px;
+  width:900px;
+  margin-bottom: 25px;
+}
+.account-info {
+  margin-bottom: 20px;
+}
+.booking {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: white;
+  color: #0c73fe;
+}
+.booking-details {
+  margin-top: 10px;
+  color:black;
+}  
+.test-3-name,
+.test-3-last {
+  font-size: 24px;
+  font-weight: bold;
+}
+.test-3-num {
+  font-size: 18px;
+}
+.test-3-code {
+  font-weight: bold;
+  color:black;
+}
+.flight-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom:70px;
+  margin-right:100px;
+  margin-left:100px;
+}
+.flight {
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 30%;
+}
+.flight-info {
+  display: flex;
+  flex-direction: column;
+}
+.flight-info p {
+  margin-bottom: 5px;
+}
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.add-to-favorites,
+.test-4-bsb {
+  padding: 5px 10px;
+}
+.search-result{
+  text-align: center;
+  color: black;
+}
+.booking-page {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+.flight-inf, .passenger-info, .buttons {
+  margin-bottom: 20px;
+}
+.flight_booking {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.passenger {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.passenger h3 {
+  margin-top: 0;
+}
+.passenger p {
+  margin-bottom: 10px;
+}
+.passenger p:last-child {
+  margin-bottom: 0;
+}
+.passenger input[type="text"],
+.passenger input[type="date"] {
+  width: 100%;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.buttons button {
+  padding: 10px 20px;
+  background-color: #0c73fe;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+.buttons p {
+  font-weight: bold;
+}
+.h2-book{
+  color:black;
+  text-align: center;
+}
+.buttons{
+  text-align: center;
+}
+.box {
+  animation: 5s show ease;
+}
+
+@keyframes show {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
